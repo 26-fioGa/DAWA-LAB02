@@ -1,0 +1,16 @@
+.main img {
+    width: 85% !important;
+    box-shadow: 24px 10px 36px -18px rgba(168, 181, 207, 0.67);
+    -webkit-box-shadow: 24px 10px 36px -18px rgba(168, 181, 207, 0.67);
+    -moz-box-shadow: 24px 10px 36px -18px rgba(168, 181, 207, 0.67);
+}
+
+.main h4 {
+    font-weight: 300;
+    letter-spacing: 0.3rem;
+}
+
+.main h4 small {
+    font-size: 16px;
+    letter-spacing: 0.1rem;
+}

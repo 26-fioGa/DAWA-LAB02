@@ -1,0 +1,33 @@
+.main h1 {
+    font-size: 3em;
+    color: #212529;
+    letter-spacing: 0.5rem;
+}
+
+.main p {
+    font-size: 1.1em;
+    color: #424242;
+}
+
+.bienvenida {
+    width: 85% !important;
+    box-shadow: 24px 10px 36px -18px rgba(168, 181, 207, 0.67);
+    -webkit-box-shadow: 24px 10px 36px -18px rgba(168, 181, 207, 0.67);
+    -moz-box-shadow: 24px 10px 36px -18px rgba(168, 181, 207, 0.67);
+}
+
+.card img {
+    border-radius: 30px;
+}
+
+.main h5 {
+    font-size: 1.5em;
+}
+
+.card {
+    border: 2px solid #bebdc8;
+    border-radius: 30px;
+    box-shadow: 24px 10px 36px -18px rgba(168, 181, 207, 0.67);
+    -webkit-box-shadow: 24px 10px 36px -18px rgba(168, 181, 207, 0.67);
+    -moz-box-shadow: 24px 10px 36px -18px rgba(168, 181, 207, 0.67);
+}

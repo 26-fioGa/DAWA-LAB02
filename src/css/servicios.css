@@ -1,0 +1,17 @@
+.main h1 {
+    font-size: 3em;
+    color: #212529;
+    letter-spacing: 0.5rem;
+}
+
+.main p {
+    font-size: 1.1em;
+    color: #424242;
+}
+
+.main img {
+    width: 100% !important;
+    box-shadow: 24px 10px 36px -18px rgba(168, 181, 207, 0.67);
+    -webkit-box-shadow: 24px 10px 36px -18px rgba(168, 181, 207, 0.67);
+    -moz-box-shadow: 24px 10px 36px -18px rgba(168, 181, 207, 0.67);
+}

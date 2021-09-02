@@ -1,0 +1,25 @@
+body {
+    background-image: url("../img/welcome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(113, 111, 240);
+}
+
+.container {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(17, 17, 17, 0.45);
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.container h1 {
+    margin-top: 4rem;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.container p {
+    font-size: 1.5em;
+}

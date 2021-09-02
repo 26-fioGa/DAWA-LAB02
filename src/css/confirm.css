@@ -1,0 +1,19 @@
+body {
+    background-image: url("../img/confirmBack.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(113, 111, 240);
+}
+
+.main {
+    background-color: rgba(17, 17, 17, 0.8);
+    color: #fff;
+    padding: 2em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.main p {
+    font-size: 20px;
+}

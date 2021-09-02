@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="icon" href="https://res.cloudinary.com/dyfo5owv8/image/upload/v1630335706/lab2DAWA/modern-architecture_nr8n8a.png">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <title>ReDecora</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">ReDecora</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/contacto">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/app">App</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid p-5 main">
+        <div class="row pt-3">
+            <div class="col-lg-4 p-2 formulario">
+                <h4 style="text-align: center;"><b>Hablemos de tu próximo proyecto</b>
+                    <br><small>Asegúrese de llenar todos los campos</small></h4>
+                <hr>
+                <br>
+                <div id="alertSuccess" class="alert alert-success d-none" role="alert">Correct!</div>
+                <form class="needs-validation" action="/confirm" method="post">
+                    <div class="mb-3">
+                        <label for="nombres" class="form-label">Nombres y apellidos</label>
+                        <div id="alertNombres" class="alert alert-danger d-none" role="alert">
+                            El campo no debe estar vacío o contener números.
+                        </div>
+                        <input type="text" class="form-control" id="nombres" name="nombres">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <div id="alertEmail" class="alert alert-danger d-none" role="alert">
+                            Asegúrese de ingresar un email válido.
+                        </div>
+                        <input type="text" class="form-control" id="email" name="email" placeholder="Ejem: usuario@email.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefono" class="form-label">Teléfono Móvil</label>
+                        <div id="alertTelefono" class="alert alert-danger d-none" role="alert">
+                            El número debe tener 9 dígitos y no debe introducir letras
+                        </div>
+                        <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Ejem: 999888457">
+                    </div>
+                    <div class="mb-3">
+                        <label for="fecNacimiento" class="form-label">Fecha de nacimiento</label>
+                        <div id="alertFecNacimiento" class="alert alert-danger d-none" role="alert">
+                            Es necesario que introduzca su fecha de nacimiento.
+                        </div>
+                        <input type="date" class="form-control" id="fecNacimiento" name="fecNacimiento">
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <div id="alertMensaje" class="alert alert-danger d-none" role="alert">
+                            El mensaje debe contener más de 150 caracteres.
+                        </div>
+                        <textarea class="form-control" id="mensaje" name="mensaje"></textarea>
+                    </div>
+                    <button id="enviar" class="btn btn-success">Enviar</button>
+                    <button type="reset" class="btn btn-secondary">Limpiar Campos</button>
+
+                </form>
+            </div>
+            <div class="col-lg-8 text-center" style="margin: auto !important;">
+                <img src="./img/contact.jpg" class="img-fluid" alt="bienvenida" style="object-fit: cover; width: 100%; margin: auto;">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-dark text-white">
+        <div class="row">
+            <div class="col-lg-4 text-center pt-4 pb-3">
+                <p>INFO ADICIONAL</p>
+                <hr>
+                <p>Damos teleconsulta para asesoría de proyecto 24/7.</p>
+            </div>
+            <div class="col-lg-4 text-center pt-4 pb-3">
+                <p>CONTÁCTANOS</p>
+                <hr>
+                <p>
+                    <a href="#" style="color: white; text-decoration: none;"><img src="https://img.icons8.com/emoji/48/000000/telephone-receiver.png" style="width: 20px; height: auto;" /> Teléfono: 999 999 999</a>
+                </p>
+                <p>
+                    <a href="#" style="color: white; text-decoration: none;"><img src="https://img.icons8.com/officel/16/000000/send-mass-email.png" style="width: 20px; height: auto;" /> Email: email@email.com</a>
+                </p>
+
+            </div>
+
+            <div class="col-lg-4 text-center pt-4 pb-3">
+                <p>REDES SOCIALES</p>
+                <hr>
+                <div class="row" style="display: block;">
+                    <a href="#"><img src="https://img.icons8.com/bubbles/50/000000/github.png" /></a>
+                    <a href="#"><img src="https://img.icons8.com/bubbles/50/000000/instagram-new.png" /></a>
+                    <a href="#"><img src="https://img.icons8.com/bubbles/50/000000/linkedin.png" /></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="./js/validation.js"></script>
+</body>
+
+</html>
